@@ -24,17 +24,15 @@ MODULE = Gnome2::Dia::Canvas	PACKAGE = Gnome2::Dia::Canvas	PREFIX = dia_canvas_
 
 ##  Struct members that have no corresponding properties.
 SV *
-in_undo (canvas)
+root (canvas)
 	DiaCanvas *canvas
     ALIAS:
-	root = 1
-	solver = 2
+	solver = 1
     CODE:
 	RETVAL = &PL_sv_undef;
 	switch (ix) {
-		case 0: RETVAL = newSVuv (canvas->in_undo); break;
-		case 1: RETVAL = newSVDiaCanvasItem (canvas->root); break;
-		case 2: RETVAL = newSVDiaSolver (canvas->solver); break;
+		case 0: RETVAL = newSVDiaCanvasItem (canvas->root); break;
+		case 1: RETVAL = newSVDiaSolver (canvas->solver); break;
 		default: g_assert_not_reached ();
 	}
     OUTPUT:

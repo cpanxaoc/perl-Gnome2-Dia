@@ -2,8 +2,7 @@
 use strict;
 use Gnome2::Dia;
 
-# use Test::More tests => 16; # FIXME: Version check.
-use Test::More skip_all => "DiaShape is borken currently";
+use Test::More tests => 16;
 
 # $Header$
 

@@ -1,3 +1,10 @@
+2004/11/10 19:40 (+0100) kaffeetisch
+
+	* t/DiaShape.t: Reenable this as the upstream problems seem to
+	have been fixed.
+
+	* xs/DiaCanvas.xs: Remove the in_undo accessor.
+
 2004/10/24 11:55 (-0400) rwmcfa1
 
 	* MANIFEST.SKIP: updates
