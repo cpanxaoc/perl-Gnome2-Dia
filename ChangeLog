@@ -1,3 +1,8 @@
+2005/02/20	kaffeetisch
+
+	* xs/DiaCanvasGroup.xs: Update prototype of
+	dia_canvas_group_foreach.
+
 2005/01/27 20:12 (+0100) kaffeetisch
 
 	* README: Fix typo.

@@ -110,10 +110,10 @@ dia_canvas_group_lower_item (group, item, pos)
 	DiaCanvasItem *item
 	gint pos
 
-##  gint dia_canvas_group_foreach (DiaCanvasItem *item, DiaCanvasItemForeachFunc func, gpointer data)
+##  gint dia_canvas_group_foreach (DiaCanvasGroup *item, DiaCanvasItemForeachFunc func, gpointer data)
 gint
 dia_canvas_group_foreach (item, func, data=NULL)
-	DiaCanvasItem *item
+	DiaCanvasGroup *item
 	SV *func
 	SV *data
     PREINIT:
