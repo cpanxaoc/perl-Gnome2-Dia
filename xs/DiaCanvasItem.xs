@@ -488,7 +488,7 @@ dia_canvas_item_preserve_property (item, property_name)
 void
 dia_canvas_item_set_child_of (item, new_parent)
 	DiaCanvasItem *item
-	DiaCanvasItem *new_parent
+	DiaCanvasItem_ornull *new_parent
 
 # --------------------------------------------------------------------------- #
 
