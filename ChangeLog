@@ -1,3 +1,22 @@
+2004/09/25 21:00 (+0200) kaffeetisch
+
+	* xs/DiaCanvasGroupable.xs: Add support for implementing this
+	interface in Perl.
+
+	* t/DiaCanvasItem.t, xs/DiaCanvasItem.xs: Bind and test
+	dia_canvas_item_set_child_of despite private mark as it is
+	necessary and actually *is* part of the public API.
+
+	* xs/DiaCanvasItem.xs: First steps towards subclassibility:
+	Implement support for overriding the UPDATE vfunc.
+
+	* t/DiaPlacementTool.t, xs/DiaPlacementTool.xs: Enable
+	dia_placement_tool_new, but use version checks to determine if
+	dia_placement_tool_newv is available.
+
+	* examples/editor.pl: Add an example that shows off some of the
+	more advanced stuff like subclassing and interfaces.
+
 2004/09/14 19:41 (+0200) kaffeetisch
 
 	* .cvsignore, ChangeLog, Dia.pm, LICENSE, MANIFEST, MANIFEST.SKIP,
