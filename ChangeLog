@@ -1,5 +1,9 @@
 2005/02/24	kaffeetisch
 
+	* Dia.pm, META.yml, NEWS: Version 0.04.
+
+2005/02/24	kaffeetisch
+
 	* t/DiaCanvasElement.t: Remove stuff that tested if setting the
 	handles property worked since it isn't writable anymore.
 
@@ -14,7 +18,7 @@
 
 2004/11/10 19:52 (+0100) kaffeetisch
 
-	* Dia.pm, META.yml, NEWS: Version 0.30.
+	* Dia.pm, META.yml, NEWS: Version 0.03.
 
 2004/11/10 19:40 (+0100) kaffeetisch
 
