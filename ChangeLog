@@ -1,3 +1,11 @@
+2004/10/15 18:11 (+0200) kaffeetisch
+
+	* t/DiaCanvas.t: Work around the recent deprecation of the undo
+	stuff by using 0 in the [sg]et_undo_stack_depth test.
+
+	* xs/DiaPlacementTool.xs: Alter the version check to actually do
+	the right thing on all versions of diacanvas2.
+
 2004/09/16 14:36 (+0200) kaffeetisch
 
 	* Dia.pm, MANIFEST, META.yml: Version 0.02.
