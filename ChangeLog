@@ -1,3 +1,7 @@
+2004/10/24 11:55 (-0400) rwmcfa1
+
+	* MANIFEST.SKIP: updates
+
 2004/10/15 18:11 (+0200) kaffeetisch
 
 	* t/DiaCanvas.t: Work around the recent deprecation of the undo
