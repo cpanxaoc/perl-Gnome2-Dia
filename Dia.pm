@@ -1,6 +1,6 @@
 package Gnome2::Dia;
 
-# $Header$
+# $Id$
 
 use 5.008;
 use strict;

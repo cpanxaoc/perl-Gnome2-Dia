@@ -4,7 +4,7 @@ use Gnome2::Dia;
 
 use Test::More skip_all => "Currently completely broken", tests => 25;
 
-# $Header$
+# $Id$
 
 ###############################################################################
 

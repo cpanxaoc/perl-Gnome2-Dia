@@ -4,7 +4,7 @@ use Gnome2::Dia;
 
 use Test::More tests => 5;
 
-# $Header$
+# $Id$
 
 Gtk2 -> init();
 
